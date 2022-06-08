@@ -1,0 +1,6 @@
+# Gradle-generated files
+.gradle/
+build/
+
+# For development on JetBrains machines where .idea is not ignored globally
+.idea/
