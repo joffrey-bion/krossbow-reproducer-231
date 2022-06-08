@@ -27,6 +27,7 @@ kotlin {
     sourceSets {
         val iosArm64Main by getting {
             dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
                 implementation("org.hildan.krossbow:krossbow-stomp-kxserialization:3.6.0")
                 implementation("org.hildan.krossbow:krossbow-websocket-ktor:3.6.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
@@ -34,6 +35,7 @@ kotlin {
         }
         val iosX64Main by getting {
             dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
                 implementation("org.hildan.krossbow:krossbow-stomp-kxserialization:3.6.0")
                 implementation("org.hildan.krossbow:krossbow-websocket-ktor:3.6.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
